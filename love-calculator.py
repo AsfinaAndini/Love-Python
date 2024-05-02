@@ -33,3 +33,10 @@ name2.pack()
 bt = Button(root, text="Hitung", height=1,
             width=7, command=calculate_love)
 bt.pack()
+
+# Text result 
+result = Label(root, text='Persentase kecocokan:')
+result.pack()
+
+# Starting the GUI
+root.mainloop()
