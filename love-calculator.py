@@ -19,23 +19,23 @@ heading = Label(root, text='Love Calculator????')
 heading.pack()
 
 # Input for the first name
-slot1 = Label(root, text="Nama Kamu:")
+slot1 = Label(root, text="Your Name:")
 slot1.pack()
 name1 = Entry(root, border=5)
 name1.pack()
 
 # Input for the partner name
-slot2 = Label(root, text="Nama crush/pacar kamu:")
+slot2 = Label(root, text="Your Crush Name:")
 slot2.pack()
 name2 = Entry(root, border=5)
 name2.pack()
 
-bt = Button(root, text="Hitung", height=1,
+bt = Button(root, text="Calculate", height=1,
             width=7, command=calculate_love)
 bt.pack()
 
 # Text result 
-result = Label(root, text='Persentase kecocokan:')
+result = Label(root, text='Percentage match:')
 result.pack()
 
 # Starting the GUI
