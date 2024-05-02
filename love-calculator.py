@@ -18,3 +18,18 @@ def calculate_love():
 heading = Label(root, text='Love Calculator????')
 heading.pack()
 
+# Input for the first name
+slot1 = Label(root, text="Nama Kamu:")
+slot1.pack()
+name1 = Entry(root, border=5)
+name1.pack()
+
+# Input for the partner name
+slot2 = Label(root, text="Nama crush/pacar kamu:")
+slot2.pack()
+name2 = Entry(root, border=5)
+name2.pack()
+
+bt = Button(root, text="Hitung", height=1,
+            width=7, command=calculate_love)
+bt.pack()
