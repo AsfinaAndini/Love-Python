@@ -14,3 +14,7 @@ def calculate_love():
     temp = "".join(random.sample(st, digit))
     result.config(text=temp)
 
+# Heading on Top
+heading = Label(root, text='Love Calculator????')
+heading.pack()
+
